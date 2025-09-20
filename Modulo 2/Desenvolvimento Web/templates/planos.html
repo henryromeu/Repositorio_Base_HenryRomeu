@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'style.css') }}">
+    <title>VillaHost - Planos de Hospedagem</title>
+</head>
+<body>
+    <header>
+        <h1>VillaHost</h1>
+    </header>
+
+    <menu>
+        <a href="{{ url_for('index') }}">Voltar para página inicial</a>
+    </menu>
+
+    <main>
+        <h2>🌐 Planos de Hospedagem</h2>
+
+        <section>
+            <h3>🔹 Plano Start</h3>
+            <p><strong>R$ 14,90/mês</strong></p>
+            <ul>
+                <li>1 Site</li>
+                <li>5 GB de Armazenamento SSD</li>
+                <li>10 GB de Transferência Mensal</li>
+                <li>1 Conta de E-mail Profissional</li>
+                <li>Certificado SSL Grátis</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>🔹 Plano Pro</h3>
+            <p><strong>R$ 24,90/mês</strong></p>
+            <ul>
+                <li>Sites Ilimitados</li>
+                <li>20 GB de Armazenamento SSD</li>
+                <li>100 GB de Transferência Mensal</li>
+                <li>10 Contas de E-mail Profissional</li>
+                <li>Certificado SSL Grátis</li>
+                <li>Painel de Controle cPanel / CyberPanel</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>🔹 Plano Business</h3>
+            <p><strong>R$ 44,90/mês</strong></p>
+            <ul>
+                <li>Sites Ilimitados</li>
+                <li>50 GB de Armazenamento SSD</li>
+                <li>Transferência Mensal Ilimitada</li>
+                <li>E-mails Ilimitados</li>
+                <li>Certificado SSL Grátis</li>
+                <li>Backup Automático Semanal</li>
+                <li>Suporte Prioritário 24/7</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>🔹 Plano Premium (Revenda)</h3>
+            <p><strong>R$ 79,90/mês</strong></p>
+            <ul>
+                <li>100 GB de Armazenamento SSD</li>
+                <li>Tráfego Ilimitado</li>
+                <li>cPanel/WHM para Revenda</li>
+                <li>SSL e Backups Inclusos</li>
+                <li>Suporte Premium</li>
+                <li>Marca Própria (White Label)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h4>Desenvolvido por Henry Romeu</h4>
+    </footer>
+</body>
+</html>
